@@ -1,5 +1,5 @@
 import React from 'react';
-import { FileText, Clock, Shield, MousePointer } from 'lucide-react';
+import { FileText, Clock, Shield, MousePointer, Globe } from 'lucide-react';
 
 const MainFeatures = () => {
   return (
@@ -141,4 +141,4 @@ const MainFeatures = () => {
   );
 };
 
-export default CorePrinciples;
+export default MainFeatures;
