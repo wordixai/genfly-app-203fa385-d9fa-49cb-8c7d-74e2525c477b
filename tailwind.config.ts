@@ -52,16 +52,6 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -89,6 +79,47 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
+				mono: ['JetBrains Mono', 'Monaco', 'monospace'],
+				ascii: ['monospace']
+			},
+			spacing: {
+				'18': '4.5rem',
+				'22': '5.5rem',
+				'26': '6.5rem',
+				'30': '7.5rem',
+				'34': '8.5rem',
+				'36': '9rem',
+				'42': '10.5rem',
+				'50': '12.5rem',
+				'58': '14.5rem',
+				'68': '17rem',
+				'76': '19rem',
+				'84': '21rem',
+				'92': '23rem',
+				'100': '25rem',
+				'108': '27rem',
+				'116': '29rem',
+				'124': '31rem',
+				'132': '33rem',
+				'140': '35rem',
+				'148': '37rem',
+				'156': '39rem',
+				'164': '41rem',
+				'172': '43rem',
+				'180': '45rem',
+				'188': '47rem',
+				'196': '49rem',
+				'204': '51rem',
+				'212': '53rem',
+				'220': '55rem',
+				'228': '57rem',
+				'236': '59rem',
+				'244': '61rem',
+				'252': '63rem',
+				'260': '65rem'
 			}
 		}
 	},
