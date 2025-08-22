@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
-import { Check, DollarSign } from 'lucide-react';
+import { Check, DollarSign, ExternalLink } from 'lucide-react';
 
 const Pricing = () => {
   const [billingPeriod, setBillingPeriod] = useState('yearly');
